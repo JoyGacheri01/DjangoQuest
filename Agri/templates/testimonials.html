@@ -1,0 +1,82 @@
+{% extends 'layout.html' %}
+
+{% load static %}
+
+{% block code %}
+
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url({% static 'assets/img/Better.png' %});">
+      <div class="container position-relative">
+        <h1>Testimonials</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li class="current">Testimonials</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-12 testimonials section" id="testimonials">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>TESTIMONIALS</h2>
+        <p>How great are spoken or written praise about a certain shoe.</p>
+      </div><!-- End Section Title -->
+
+      <div class="testimonial-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mb-4 mb-md-4">
+              <div class="testimonial">
+                <blockquote>
+                  <p>
+                    "Just received my new boots and have them on  with the insoles. Beautiful boots and very comfortable. 
+                    I am glad to have the ankle support but it will take a bit to break them in there because if my skinny legs. So happy to have them."
+                  </p>
+                </blockquote>
+                <p class="client-name">Anonymous</p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4 mb-md-4">
+              <div class="testimonial">
+                <blockquote>
+                  <p>
+                    Now having 7pairs of atheists shoes I find I like the boots best. In fact the emerald boot is absolutely terrific, 
+                    the color is great and it is the softest to touch of all my shoes. Just let me know of any other color boot mayed from the same leather.
+                  </p>
+                </blockquote>
+                <p class="client-name">Jabali</p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4 mb-md-4">
+              <div class="testimonial">
+                <blockquote>
+                  <p>
+                    Ran into the shop in Berlin, and saw some thing I fell in love with, did not make up my mind because I kept seeing things 
+                    that also caught my eye. The shoes feel comfortable. The customer service was excellent upon my return.
+                  </p>
+                </blockquote>
+                <p class="client-name">Maddy Anderson</p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4 mb-md-4">
+              <div class="testimonial">
+                <blockquote>
+                  <p>
+                    “I‘ve just received my second pair of shoes. So my only problem is to decide which one to wear.”
+                  </p>
+                </blockquote>
+                <p class="client-name">John Doe</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Testimonials Section -->
+
+
+
+{% endblock %}

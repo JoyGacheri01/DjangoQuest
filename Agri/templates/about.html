@@ -1,0 +1,231 @@
+{% extends 'layout.html' %}
+
+{% load static %}
+
+{% block code  %}
+
+
+        <!-- Page Title -->
+        <div class="page-title dark-background" data-aos="fade" style="background-image: url({% static 'assets/img/Concepts.webp' %});">
+          <div class="container position-relative">
+            <h1>About</h1>
+            <p>At Boundless Sole, we belive sneakers are more than just footwear. 
+              We provide stylish, comfortable and crafted sneakers that adopt every lifestyle.</p>
+            <nav class="breadcrumbs">
+              <ol>
+                <li><a href="{% url 'index' %}">Home</a></li>
+                <li class="current">About</li>
+              </ol>
+            </nav>
+          </div>
+        </div><!-- End Page Title -->
+
+        <!-- About 3 Section -->
+        <section id="about-3" class="about-3 section bg-light py-5">
+
+          <div class="container">
+            <div class="row gy-4 justify-content-between align-items-center">
+              
+              <!-- Text Content Section -->
+              <div class="col-lg-6 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+                <h2 class="content-title mb-4">Why Sneakers Are Essential</h2>
+                <p class="mb-4">
+                  Sneakers are no longer just for the gym. From casual outings to professional settings, they have become an essential part of modern life. Their ability to offer both comfort and style makes them a perfect footwear choice for any occasion, providing lasting support and versatility for every step you take.
+                </p>
+
+                <!-- Key Features List -->
+                <ul class="list-unstyled list-check">
+                  <li><i class="bi bi-check-circle text-primary me-3"></i> Designed for All-Day Comfort</li>
+                  <li><i class="bi bi-check-circle text-primary me-3"></i> Versatile for Different Activities</li>
+                  <li><i class="bi bi-check-circle text-primary me-3"></i> Affordable and Accessible</li>
+                </ul>
+
+                <!-- Call to Action -->
+                <p><a href="{% url 'contact' %}" class="btn btn-primary">Contact Us Today</a></p>
+              </div>
+              
+            </div>
+          </div>
+
+        </section><!-- /About 3 Section -->
+
+
+        <!-- Team Section -->
+        <section class="team-15 team section" id="team">
+          <!-- Section Title -->
+          <div class="container section-title" data-aos="fade-up">
+            <h2>Team</h2>
+            <p>The Great People Behind these Are</p>
+          </div><!-- End Section Title -->
+
+          <ol class="list-group list-group-numbered list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Micheal Jordan</div>
+                Jordan Sneakers
+              </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Adolf AdiDassler</div>
+                Adidas
+              </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Phil Knight</div>
+                Nike
+              </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Joe Preston</div>
+                New Balance
+              </div>
+            </li>
+            <p>among others</p>
+          </ol>
+          
+
+         
+        </section><!-- /Team Section -->
+
+        <!-- Services Section -->
+        <section id="services" class="services section">
+
+          <!-- Section Title -->
+          <div class="container section-title" data-aos="fade-up">
+            <h2>SERVICES</h2>
+            <p>At Boundelss Sole we are dedicated to providing a complete expreience 
+              for sneaker enthusiast, blending style and durable sneakers
+            </p>
+          </div><!-- End Section Title -->
+          <div class="content">
+            <div class="container">
+              <div class="row g-0">
+                <div class="col-lg-3 col-md-6">
+                  <div class="service-item">
+                    <span class="number">01</span>
+                    <div class="service-item-icon">
+                    </div>
+                    <div class="service-item-content">
+                      <h3 class="service-heading">High Quality Sneakers</h3>
+                      <p>
+                        Our sneakers are crafted from premium materials designed 
+                        to last, combining style with resilience.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="service-item">
+                    <span class="number">02</span>
+                    <div class="service-item-icon">
+                    </div>
+                    <div class="service-item-content">
+                      <h3 class="service-heading">Athletic Performance Sneakers</h3>
+                      <p>
+                        Our line combines advanced technology with high quality materials, 
+                        offering stability, flexibility and support for peak performance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="service-item">
+                    <span class="number">03</span>
+                    <div class="service-item-icon">
+                    </div>
+                    <div class="service-item-content">
+                      <h3 class="service-heading"> Outdoor Adventures</h3>
+                      <p>
+                        Our outdoor sneakers are rugged, durable and waterproof and are designed 
+                        to handle rpugh terrains.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="service-item">
+                    <span class="number">04</span>
+                    <div class="service-item-content">
+                      <h3 class="service-heading"> Lifestyle Classic</h3>
+                      <p>
+                        Our sneakers bridge the gap between casual and trending. Perfect for everyday wear.
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                  <div class="service-item">
+                    <span class="number">05</span>
+                    <div class="service-item-icon">
+                    </div>
+                    <div class="service-item-content">
+                      <h3 class="service-heading">Linited Edition and Exclusive</h3>
+                      <p>
+                        Stand out with our limited edition sneakers, crafted for those who value exclusivity.
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="service-item">
+                    <span class="number">06</span>
+                    <div class="service-item-icon">
+                    </div>
+                    <div class="service-item-content">
+                      <h3 class="service-heading">Sustanable Collection</h3>
+                      <p>
+                        They use eco-friendly materials and respensible manufacturing process.
+                        Giving you the style with a conscience.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="service-item">
+                    <span class="number">07</span>
+                    <div class="service-item-icon">
+                    </div>
+                    <div class="service-item-content">
+                      <h3 class="service-heading">Customizable Sneakers</h3>
+                      <p>
+                        BoundlessSole believes that true style is personal, which is why we offer a 
+                        line of customizable sneakers. Choose from a range of colors, materials, 
+                        and unique detailing options to create a pair that’s uniquely yours
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="service-item">
+                    <span class="number">08</span>
+                    <div class="service-item-icon">
+                    </div>
+                    <div class="service-item-content">
+                      <h3 class="service-heading">Vintage-Inspired Sneakers</h3>
+                      <p>
+                        For those who love a touch of nostalgia, our retro line blends classic 
+                        designs with modern comfort. Drawing inspiration from iconic styles of 
+                        past decades, these sneakers feature unique colorways, bold patterns, 
+                        and timeless silhouettes that add a retro edge to any look.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section><!-- /Services Section -->
+
+
+
+
+{% endblock %}
+
+
+

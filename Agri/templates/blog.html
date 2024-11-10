@@ -1,0 +1,263 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block code %}
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url({% static 'assets/img/runningShoes.webp' %});">
+      <div class="container position-relative">
+        <h1>Blog</h1>
+        <p>
+          Home
+          /
+          Blog</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li class="current">Blog</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Blog Posts 2 Section -->
+    <section id="blog-posts-2" class="blog-posts-2 section">
+      <h1>How to Style Your Sneakers: Essential Tips for Every Occasion</h1>
+
+      <p>At BoundlessSole, we believe that sneakers are more than just shoes, they’re an extension of your personality.
+         Whether you’re hitting the streets, heading to the office, or meeting friends for a night out, the right pair of sneakers can 
+         elevate your style and comfort. 
+         Our guide on how to style your sneakers:</p>
+
+      <div class="container">
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="">
+              </div>
+
+              <div class="meta d-flex align-items-end">
+                <span class="post-date">Tip 1</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title"> Casual Outings</h3>
+                <p><strong>Look:</strong> Relaxed and Effortlessly Cool</p>
+                <p>For casual day-to-day activities, like brunch or running errands, opt for sneakers with clean lines and versatile colors. 
+                  Our Urban Essentials line offers understated styles in classic black, white, and neutral tones that can be paired with jeans, 
+                  joggers, or casual dresses. Add a denim jacket or bomber to finish the look, and you’re ready to take on the day with ease.</p>
+                <p class="tip">Style Tip: Choose low-top sneakers in neutral shades to keep things relaxed. The versatility of neutrals makes 
+                  them perfect for pairing with any casual outfit.</p>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="meta d-flex align-items-end">
+                <span class="post-date">Tip 2</span>
+
+              </div>
+
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title"> Office-Ready Sneakers</h3>
+                <p><strong>Look:</strong> Professional Yet Comfortable</p>
+                <p>Sneakers are making their way into the professional world! For a stylish and work-appropriate look, 
+                  go for minimal, sleek sneakers in leather or suede. Our Lifestyle Classics collection offers refined options 
+                  that blend sophistication with comfort. Pair them with tailored trousers, a blouse, or even a suit to achieve a modern, business-casual vibe.</p>
+                <p class="tip">Style Tip: Stick to monochrome color schemes and avoid bold logos to keep the look professional.</p>
+              </div>
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog/blog-4.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="meta d-flex align-items-end">
+                <span class="post-date">Tip 3</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title"> Outdoor Adventures</h3>
+                <p><strong>Look:</strong> Rugged and Ready for Anything</p>
+                <p>If you’re planning a hiking trip or exploring nature, go for our Trail and Outdoor sneakers. 
+                  These are built with added traction and durability, ideal for off-road adventures. Pair with performance leggings or cargo pants, 
+                  a moisture-wicking top, and don’t forget a windbreaker for unexpected weather!</p>
+                <p class="tip">Style Tip: Opt for earth tones and natural shades that blend seamlessly with the outdoor environment, 
+                  such as greens, browns, and dark grays.</p>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog/blog-5.jpg" class="img-fluid" alt="">
+              </div>
+
+              <div class="meta d-flex align-items-end">
+                <span class="post-date">Tip 4</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title"> Evening Out</h3>
+                  <p><strong>Look:</strong> Bold and Statement-Making</p>
+                    <p>For a night out with friends, a pair of statement sneakers from our Limited Edition collection can elevate your outfit and add a unique 
+                      twist. Look for designs with unique colors, textures, or subtle metallic accents. Pair with dark jeans, a fitted top, and a leather jacket 
+                      for an effortlessly cool look that stands out.</p>
+                    <p class="tip">Style Tip: A pop of color or pattern on your sneakers can be a conversation starter, 
+                      so don’t be afraid to show some flair with your evening attire.</p>
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article class="position-relative h-100">
+
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/blog/blog-6.jpg" class="img-fluid" alt="">
+              </div>
+
+              <div class="meta d-flex align-items-end">
+                <span class="post-date">Tip 5</span>
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+          
+                <h3 class="post-title">Travel-Ready Sneakers</h3>
+                  <p><strong>Look:</strong> Comfortable and Versatile</p>
+                  <p>When you’re on the go, comfort is key. Our All-Terrain sneakers are perfect for travel, blending lightweight support with breathable 
+                    materials. Pair them with leggings, joggers, or even a cozy sweater dress. These sneakers are ideal for exploring new places without 
+                    compromising on style.</p>
+                  <p class="tip">Style Tip: Choose easy-to-clean materials like leather or waterproof options for long trips, 
+                    ensuring they stay fresh no matter where you roam.</p>
+                        
+
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <section>
+      <h2>Check out our latest collection</h2>
+      <div class="container mt-5">
+        <!-- Row 1 -->
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'assets/img/AirForce.png' %}" class="card-img-top" alt="Sneaker 1">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Air Force 1</h5>
+                        <p class="card-text">Classic style, durable construction, and all-day comfort. 
+                          A timeless Nike sneaker originally designed for basketball, now a streetwear staple..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'assets/img/Asics.jp' %}g" class="card-img-top" alt="Sneaker 2">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">ASICS Gel-Kayano</h5>
+                        <p class="card-text">The ASICS Gel-Kayano is a running shoe designed for stability and comfort. Featuring ASICS' Gel cushioning system, 
+                          it provides superior support for overpronators, making it ideal for long-distance runners or anyone seeking a high-performance sneaker.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+               <div class="card h-100">">
+                    <img src="{% static 'assets/img/Balv6.webp' %}" class="card-img-top" alt="Sneaker 3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">New Balance v6</h5>
+                        <p class="card-text">The New Balance v6 combines comfort, support, and style. With a breathable mesh upper and responsive cushioning, this sneaker is perfect for daily wear, 
+                          whether you’re hitting the gym or strolling through the city streets.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'assets/img/Samba.webp' %}" class="card-img-top" alt="Sneaker 4">
+                    <div class="card-body d-flex flex-column">y">
+                        <h5 class="card-title">Adidas Samba OG </h5>
+                        <p class="card-text">A classic from Adidas, the Samba OG is a retro-inspired sneaker with a timeless look. Originally designed for indoor soccer, it offers durability, comfort, and a sleek, 
+                          low-profile silhouette that pairs well with almost any casual outfit. 4.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- Row 2 -->
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'assets/img/Vomero5.png' %}" class="card-img-top" alt="Sneaker 5">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Nike Zoom Vomero 5</h5>
+                        <p class="card-text">ThThe Nike Zoom Vomero 5 is designed for runners who value both cushioning and responsiveness. With Zoom Air technology, this sneaker provides a smooth ride, 
+                          making it perfect for those long runs or everyday comfort.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'assets/img/Converse.webp' %}" class="card-img-top" alt="Sneaker 6">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Converse</h5>
+                        <p class="card-text">Converse Chuck Taylor sneakers are a symbol of casual cool. Known for their canvas upper, rubber toe cap, and signature star logo, 
+                          they have transcended their basketball roots to become a global icon of style and comfort.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'assets/img/Jordan4FireRed.webp' %}" class="card-img-top" alt="Sneaker 7">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Jordan 4 Fire Red</h5>
+                        <p class="card-text">The Jordan 4 Fire Red is a tribute to one of Michael Jordan’s greatest achievements. Known for its bold colorway, premium leather construction, 
+                          and air cushioning, this sneaker is as much a collector’s item as it is a high-performance basketball shoe..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="{% static 'assets/img/Gorp.jpg' %}" class="card-img-top" alt="Sneaker 8">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Gorp-core </h5>
+                        <p class="card-text">A sneaker built for adventure, combining rugged 
+                          outdoor aesthetics with durable materials for those who enjoy urban exploration and hiking..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+
+ {% endblock %}
